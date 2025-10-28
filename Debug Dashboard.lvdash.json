@@ -234,7 +234,7 @@
             "queries": [
               {
                 "name": "main_query",
-                "query": 
+                "query": {
                   "datasetName": "0f5ba008",
                   "fields": [
                     {
@@ -273,7 +273,7 @@
       "layout": [
         {
           "widget": {
-            "name": "54828901",
+            "name": "12345678",
             "queries": [
               {
                 "name": "main_query",

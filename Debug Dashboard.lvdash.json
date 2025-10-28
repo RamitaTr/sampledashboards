@@ -1,0 +1,284 @@
+{
+  "datasets": [
+    {
+      "name": "6a0d2325",
+      "displayName": "one",
+      "queryLines": [
+        "select 1"
+      ]
+    },
+    {
+      "name": "bf185981",
+      "displayName": "two",
+      "queryLines": [
+        "select 2"
+      ]
+    },
+    {
+      "name": "0f5ba008",
+      "displayName": "three",
+      "queryLines": [
+        "select 3"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "9fff7a89",
+      "displayName": "combine",
+      "layout": [
+        {
+          "widget": {
+            "name": "54828901",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bf185981",
+                  "fields": [
+                    {
+                      "name": "2",
+                      "expression": "`2`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "2",
+                  "displayName": "2"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "6cdd4af6",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "6a0d2325",
+                  "fields": [
+                    {
+                      "name": "1",
+                      "expression": "`1`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "1",
+                  "displayName": "1"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "531e88e3",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "0f5ba008",
+                  "fields": [
+                    {
+                      "name": "3",
+                      "expression": "`3`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "3",
+                  "displayName": "3"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
+            "width": 3,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "11ef8d77",
+      "displayName": "one",
+      "layout": [
+        {
+          "widget": {
+            "name": "e24088e9",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "6a0d2325",
+                  "fields": [
+                    {
+                      "name": "1",
+                      "expression": "`1`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "1",
+                  "displayName": "1"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "610935a9",
+      "displayName": "two",
+      "layout": [
+        {
+          "widget": {
+            "name": "a246066d",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bf185981",
+                  "fields": [
+                    {
+                      "name": "2",
+                      "expression": "`2`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "2",
+                  "displayName": "2"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "46831cda",
+      "displayName": "three",
+      "layout": [
+        {
+          "widget": {
+            "name": "e3e3b140",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "0f5ba008",
+                  "fields": [
+                    {
+                      "name": "3",
+                      "expression": "`3`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "3",
+                  "displayName": "3"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "4ee674d4",
+      "displayName": "new page",
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "genieSpace": {
+      "isEnabled": true
+    }
+  }
+}

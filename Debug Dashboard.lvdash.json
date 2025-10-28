@@ -268,7 +268,7 @@
       "pageType": "PAGE_TYPE_CANVAS"
     },
     {
-      "name": "4ee674d4",
+      "name": "9fff7a89",
       "displayName": "new page",
       "layout": [
         {
@@ -303,6 +303,78 @@
           "position": {
             "x": 3,
             "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "6cdd4af6",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "6a0d2325",
+                  "fields": [
+                    {
+                      "name": "1",
+                      "expression": "`1`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "1",
+                  "displayName": "1"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "531e88e3",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "0f5ba008",
+                  "fields": [
+                    {
+                      "name": "3",
+                      "expression": "`3`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "3",
+                  "displayName": "3"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 6,
             "width": 3,
             "height": 6
           }
